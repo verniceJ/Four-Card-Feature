@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+/* ID'S*/
+
+/*HEADER*/
+.header-container{
+    padding: 3% 10%
+}
+
+.reliable{
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+
+.powered{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.paragraph{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    padding: 0 30%;
+}
+
+/*Info containers*/
+
+.main-container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0 6%;
+}
+
+.pseudo-container{
+    width: 33%;
+}
+
+.info-container{
+    box-shadow: 2px 10px 10px 0 rgba(0, 0, 0, 0.2);
+    border-top: 3px solid;
+    border-radius: 10px;
+    color: hsl(234, 12%, 34%); 
+    text-align: left;
+    margin: 20px;
+}
+
+.info-container h3{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.text-cotainer{
+    padding: 6% 10%;
+}
+
+.image-container{
+    text-align: right;
+    padding: 7% 6%;
+}
+
+.supervisor-container{
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+.team-builder-container{
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+.karma-container{
+    border-top-color: hsl(34, 97%, 64%);
+}
+
+.calculator-container{
+    border-top-color: hsl(212, 86%, 64%);
+}
+
+@media (max-width: 900px){
+    .main-container {
+        flex-direction: unset;
+        display: unset;
+        padding: 0 15%;
+    }
+
+    .pseudo-container{
+        width: 100%;
+    }
+
+    .header-container{
+        padding: 3% 10%;
+    }
+
+    .header-paragraph{
+        font-weight: 400;
+        color: hsl(229, 6%, 66%);
+        padding: 0 6%;
+    }
+}
